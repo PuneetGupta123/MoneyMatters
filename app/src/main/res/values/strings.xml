@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">MoneyMatters</string>
     <string name="action_settings">Settings</string>
+    <string name="money_feed">Your Feed</string>
+    <string name="notification">Notification</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

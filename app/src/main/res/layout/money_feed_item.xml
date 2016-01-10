@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    card_view:cardCornerRadius="10dp"
+    android:background="#ffffff"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:id="@+id/card_view"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ll">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/person_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:border_width="2dp"
+            app:border_color="#FFFFFF"
+            android:src="@drawable/ic_launcher"
+            />
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_id"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/person_name"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:text="Person Name"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amount is"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:id="@+id/amount"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\@ROI"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:id="@+id/ROI"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Security"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:id="@+id/security"
+            />
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
